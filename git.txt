@@ -1,2 +1,6 @@
-xwww.zhangyanrui.com
+www.zhangyanrui.com
 
+git log命令 查看提交记录
+git修改提交的账号 和 邮箱： 
+  git config --global user.name "zhangyanrui"
+  git config --global user.email zhangyanrui@live.com  
