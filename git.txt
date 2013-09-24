@@ -6,4 +6,32 @@ git修改提交的账号 和 邮箱：
   git config --global user.name "zhangyanrui"
   git config --global user.email zhangyanrui@live.com  
 
+git添加远程仓库路径：
+  git remote add 别名 地址
+  例子 git remote add github git@github.com:zhangyanrui/DjangoDemo.git
+
+git pull all
+  git pull github --all --tags
+
+把工作目录迁移到github上面：
+  git push github --all --tags
+
+显示所有的远程仓库
+  git remote -v
+
+重命名远程仓库
+  git remote rename github gh
+
+删除远程仓库
+  git remote rm github
+
+从远程仓库抓取数据，更新本地仓库
+  git fetch origin
+
+查看远程仓库信心，可以用于跟踪别人的push
+  git remote show origin
+
+
+
 git end
+
