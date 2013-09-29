@@ -1,4 +1,3 @@
-add new line test
 
 git log命令 查看提交记录
 
