@@ -32,5 +32,4 @@ git pull all
 
 
 
-git end
 
