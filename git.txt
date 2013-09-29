@@ -1,3 +1,6 @@
+git相关命令讲解：
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
 
 git log命令 查看提交记录
 
@@ -31,5 +34,12 @@ git pull all
   git remote show origin
 
 
+修改多个文件之后，看到一个小bug，想达到提交小bug修改但不提交其他文件修改的效果
+1.git stash  		 将之前的修改先隐藏掉
+2.vim littlebug.c   	 修改小bug
+3.git commit -m "hotfix a typo"		提交小bug
+4.git stash apply  	将之前的修改取出
+5.vim mian.c 		继续之前的修改
+6.git commit  		提交
 
 
